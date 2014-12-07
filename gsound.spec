@@ -5,16 +5,16 @@
 Summary:	GSound - library for playing system sounds
 Summary(pl.UTF-8):	GSound - biblioteka do odtwarzania dźwięków systemowych
 Name:		gsound
-Version:	1.0.0
+Version:	1.0.1
 Release:	1
 License:	LGPL v2.1+
 Group:		Applications/System
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gsound/1.0/%{name}-%{version}.tar.xz
-# Source0-md5:	88d5c8ac293c51c372de248f5a0adf45
+# Source0-md5:	2d218e4a10965be181fd9fedee690b4e
 URL:		https://wiki.gnome.org/Projects/GSound
 BuildRequires:	glib2-devel >= 1:2.36.0
 BuildRequires:	gobject-introspection-devel >= 1.2.9
-BuildRequires:	gtk-doc >= 1.14
+BuildRequires:	gtk-doc >= 1.20
 BuildRequires:	libcanberra-devel
 BuildRequires:	pkgconfig
 BuildRequires:	tar >= 1:1.22
