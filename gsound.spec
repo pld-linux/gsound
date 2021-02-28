@@ -63,9 +63,7 @@ Statyczna biblioteka GSound.
 Summary:	API documentation for GSound library
 Summary(pl.UTF-8):	Dokumentacja API biblioteki GSound
 Group:		Documentation
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 API documentation for GSound library.
@@ -80,9 +78,7 @@ Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 Requires:	vala >= 2:0.17.2.12
 Requires:	vala-libcanberra
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description -n vala-gsound
 Vala API for GSound library.
